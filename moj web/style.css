@@ -1,0 +1,81 @@
+.header {
+	background: url('img/header_bg.png');
+	background-size: cover;
+	height: 500px;
+}
+.header a {
+	text-decoration: none;
+	font-size: 18pt;
+	color: #fff;
+	text-transform: uppercase;
+	display: block;
+	margin: 40px 0 0 40px;
+	font-family: 'Roboto', sans-serif;
+}
+.header p {
+	font-size: 32pt;
+	color: #fff;
+	margin-top: 150px;
+	text-align: center;
+	font-family: 'Lobster', cursive;
+}
+.main-nav {
+	background-color: #F1C40F;
+	height: 120px;
+	list-style-type: none;
+}
+.main-nav li {
+	display: inline;
+	line-height: 120px;
+	margin-right: 50px;
+	
+}
+.main-nav li a {
+	color: #000;
+	font-size: 18pt;
+	text-decoration: none;
+}
+.main-nav li a:hover {
+	color: red;
+}
+.hamburger {
+	text-align: right;
+	font-size: 24pt;
+	line-height: 100px;
+	padding-right: 40px;
+	display: none;
+}
+
+@media screen and (max-width:760px) {
+	.hamburger {
+		display: block;
+	}
+	.main-menu li {
+		display: block;
+		background-color: #F1C40F;
+	}
+	.main-menu li:hover {
+		background-color: #ff0000;
+	}
+	.main-menu li:hover a {
+		color: #fff;
+	}
+	.main-menu {
+		display: none;
+	}
+	.navigacija {
+		height: auto;
+	}
+}
+
+.galerija h1 {
+	text-transform: uppercase;
+	text-align: center;
+	padding-top: 60px;
+	padding-bottom: 30px;
+	font-family: 'Roboto', sans-serif;
+}
+.galerija div {
+	padding-right: 0;
+	padding-left: 0;
+}
